@@ -123,7 +123,7 @@ Partial Class frmConexion
         'btnCancelar
         '
         Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancelar.Location = New System.Drawing.Point(251, 49)
+        Me.btnCancelar.Location = New System.Drawing.Point(251, 75)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(87, 23)
         Me.btnCancelar.TabIndex = 4
