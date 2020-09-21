@@ -135,7 +135,7 @@ Partial Class frmConexion
         Me.AcceptButton = Me.btnAceptar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Black
+        Me.BackColor = System.Drawing.Color.Silver
         Me.CancelButton = Me.btnCancelar
         Me.ClientSize = New System.Drawing.Size(346, 110)
         Me.Controls.Add(Me.btnCancelar)
@@ -154,7 +154,7 @@ Partial Class frmConexion
         Me.Name = "frmConexion"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Bienvenidos"
+        Me.Text = "Bienvenido"
         Me.cmsConexion.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
