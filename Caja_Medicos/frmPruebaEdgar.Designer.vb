@@ -23,16 +23,26 @@ Partial Class frmPruebaEdgar
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnMax = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnMax
         '
-        Me.btnMax.Location = New System.Drawing.Point(770, 0)
+        Me.btnMax.Location = New System.Drawing.Point(731, -2)
         Me.btnMax.Name = "btnMax"
         Me.btnMax.Size = New System.Drawing.Size(31, 23)
         Me.btnMax.TabIndex = 0
         Me.btnMax.Text = "btnMax"
         Me.btnMax.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(768, -2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(31, 23)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'frmPruebaEdgar
         '
@@ -40,6 +50,7 @@ Partial Class frmPruebaEdgar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnMax)
         Me.Font = New System.Drawing.Font("Calibri", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -51,4 +62,5 @@ Partial Class frmPruebaEdgar
     End Sub
 
     Friend WithEvents btnMax As Button
+    Friend WithEvents Button1 As Button
 End Class
