@@ -94,19 +94,19 @@ Partial Class frmConexion
         '
         Me.cmsConexion.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuAbrirConexión, Me.mnuNuevaConexion})
         Me.cmsConexion.Name = "cmsConexion"
-        Me.cmsConexion.Size = New System.Drawing.Size(162, 48)
+        Me.cmsConexion.Size = New System.Drawing.Size(163, 48)
         '
         'mnuAbrirConexión
         '
         Me.mnuAbrirConexión.Enabled = False
         Me.mnuAbrirConexión.Name = "mnuAbrirConexión"
-        Me.mnuAbrirConexión.Size = New System.Drawing.Size(161, 22)
+        Me.mnuAbrirConexión.Size = New System.Drawing.Size(162, 22)
         Me.mnuAbrirConexión.Text = "Abrir conexión"
         '
         'mnuNuevaConexion
         '
         Me.mnuNuevaConexion.Name = "mnuNuevaConexion"
-        Me.mnuNuevaConexion.Size = New System.Drawing.Size(161, 22)
+        Me.mnuNuevaConexion.Size = New System.Drawing.Size(162, 22)
         Me.mnuNuevaConexion.Text = "Nueva Conexión"
         '
         'btnAceptar
@@ -135,7 +135,7 @@ Partial Class frmConexion
         Me.AcceptButton = Me.btnAceptar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.Black
         Me.CancelButton = Me.btnCancelar
         Me.ClientSize = New System.Drawing.Size(346, 110)
         Me.Controls.Add(Me.btnCancelar)
@@ -154,7 +154,7 @@ Partial Class frmConexion
         Me.Name = "frmConexion"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Bienvenido"
+        Me.Text = "Bienvenidos"
         Me.cmsConexion.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
