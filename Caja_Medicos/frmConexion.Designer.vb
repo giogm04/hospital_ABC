@@ -94,19 +94,19 @@ Partial Class frmConexion
         '
         Me.cmsConexion.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuAbrirConexión, Me.mnuNuevaConexion})
         Me.cmsConexion.Name = "cmsConexion"
-        Me.cmsConexion.Size = New System.Drawing.Size(163, 48)
+        Me.cmsConexion.Size = New System.Drawing.Size(162, 48)
         '
         'mnuAbrirConexión
         '
         Me.mnuAbrirConexión.Enabled = False
         Me.mnuAbrirConexión.Name = "mnuAbrirConexión"
-        Me.mnuAbrirConexión.Size = New System.Drawing.Size(162, 22)
+        Me.mnuAbrirConexión.Size = New System.Drawing.Size(161, 22)
         Me.mnuAbrirConexión.Text = "Abrir conexión"
         '
         'mnuNuevaConexion
         '
         Me.mnuNuevaConexion.Name = "mnuNuevaConexion"
-        Me.mnuNuevaConexion.Size = New System.Drawing.Size(162, 22)
+        Me.mnuNuevaConexion.Size = New System.Drawing.Size(161, 22)
         Me.mnuNuevaConexion.Text = "Nueva Conexión"
         '
         'btnAceptar
@@ -123,7 +123,7 @@ Partial Class frmConexion
         'btnCancelar
         '
         Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancelar.Location = New System.Drawing.Point(251, 75)
+        Me.btnCancelar.Location = New System.Drawing.Point(251, 49)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(87, 23)
         Me.btnCancelar.TabIndex = 4

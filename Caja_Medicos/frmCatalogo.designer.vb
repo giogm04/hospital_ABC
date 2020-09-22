@@ -23,6 +23,7 @@ Partial Class frmCatalogo1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCatalogo1))
+        Me.txtCatalogoId = New System.Windows.Forms.TextBox()
         Me.tlsCatalogo1 = New System.Windows.Forms.ToolStrip()
         Me.tsbBoton1 = New System.Windows.Forms.ToolStripButton()
         Me.tsbBoton2 = New System.Windows.Forms.ToolStripButton()
@@ -39,6 +40,16 @@ Partial Class frmCatalogo1
         Me.tlsCatalogo1.SuspendLayout()
         Me.grbPlanta.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'txtCatalogoId
+        '
+        Me.txtCatalogoId.Location = New System.Drawing.Point(220, 12)
+        Me.txtCatalogoId.Multiline = True
+        Me.txtCatalogoId.Name = "txtCatalogoId"
+        Me.txtCatalogoId.Size = New System.Drawing.Size(71, 20)
+        Me.txtCatalogoId.TabIndex = 9
+        Me.txtCatalogoId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtCatalogoId.Visible = False
         '
         'tlsCatalogo1
         '
@@ -165,6 +176,7 @@ Partial Class frmCatalogo1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(358, 203)
+        Me.Controls.Add(Me.txtCatalogoId)
         Me.Controls.Add(Me.tlsCatalogo1)
         Me.Controls.Add(Me.grbPlanta)
         Me.Font = New System.Drawing.Font("Verdana", 8.25!)
@@ -183,6 +195,8 @@ Partial Class frmCatalogo1
         Me.PerformLayout()
 
     End Sub
+
+    Friend WithEvents txtCatalogoId As TextBox
     Friend WithEvents tlsCatalogo1 As ToolStrip
     Friend WithEvents tsbBoton1 As ToolStripButton
     Friend WithEvents tsbBoton2 As ToolStripButton

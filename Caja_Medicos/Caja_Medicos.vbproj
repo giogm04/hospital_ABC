@@ -139,12 +139,6 @@
     <Compile Include="frmPermisos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPruebaEdgar.Designer.vb">
-      <DependentUpon>frmPruebaEdgar.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmPruebaEdgar.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="mdiPrincipal.designer.vb">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
     </Compile>
@@ -196,9 +190,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPermisos.resx">
       <DependentUpon>frmPermisos.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmPruebaEdgar.resx">
-      <DependentUpon>frmPruebaEdgar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdiPrincipal.resx">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
