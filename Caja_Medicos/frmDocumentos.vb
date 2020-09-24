@@ -2,7 +2,7 @@
 
 
     Private Sub frmDocumentos_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Me.SetBounds(Me.Left, Me.Top, mdiPrincipal.Size.Width, mdiPrincipal.Size.Height - 30)
+        Me.SetBounds(Me.Left, Me.Top, mdiPrincipalold.Size.Width, mdiPrincipalold.Size.Height - 30)
         frm_actual = Me.Name
         CargarConfFormGrid(grdDocumentos)
         CargarPeriodoVista(frm_actual, txt_actual)

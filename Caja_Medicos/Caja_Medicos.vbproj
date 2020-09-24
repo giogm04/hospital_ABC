@@ -139,10 +139,10 @@
     <Compile Include="frmPermisos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mdiPrincipal.designer.vb">
-      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+    <Compile Include="mdiPrincipalold.designer.vb">
+      <DependentUpon>mdiPrincipalold.vb</DependentUpon>
     </Compile>
-    <Compile Include="mdiPrincipal.vb">
+    <Compile Include="mdiPrincipalold.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="modConexion.vb" />
@@ -191,8 +191,8 @@
     <EmbeddedResource Include="frmPermisos.resx">
       <DependentUpon>frmPermisos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mdiPrincipal.resx">
-      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+    <EmbeddedResource Include="mdiPrincipalold.resx">
+      <DependentUpon>mdiPrincipalold.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -28,7 +28,7 @@ err_fn:
         'End If
         If HayConexionEmpresa() = True Then
             frmConexion.Dispose()
-            mdiPrincipal.Show()
+            mdiPrincipalold.Show()
             Me.Dispose()
         Else
             MsgBox("La contraseña de administrador caducó, solicite al administrador actualizarla", vbInformation)

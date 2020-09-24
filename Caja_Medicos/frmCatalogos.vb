@@ -6,7 +6,7 @@
     End Sub
 
     Private Sub frmCatalogos_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Me.SetBounds(Me.Left, Me.Top, mdiPrincipal.Size.Width, mdiPrincipal.Size.Height - 50)
+        Me.SetBounds(Me.Left, Me.Top, mdiPrincipalold.Size.Width, mdiPrincipalold.Size.Height - 50)
         CargarConfFormGrid(grdCatalogos1)
     End Sub
 
